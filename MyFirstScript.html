@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function reset(){
+  document.getElementById("questionmark").src = 'questionmark.jpg';
+}
+</script>
+</head>
+<title>Lee's JavaScript Demo</title>
+<body align="center" style="font-size: large;">
+        <h2 style="color: blue;">Who's that Gal?</h2>
+    <button
+    onclick=" document.getElementById('questionmark').src='WonderWoman.jpg'">
+    Turn to Super Hero
+    </button>
+    <img id="questionmark" src ="questionmark.jpg" style="width: 400px; height: 400px;">
+        <button
+        onclick="document.getElementById('questionmark').src ='Gal_Gadot.jpg'">
+        Turn back to normal
+        </button>
+    <br>
+    <br>
+    <br>
+    <button onclick="reset()">Reset</button>
+    <br>
+
+        <script>
+            document.getElementById("demo").innerHTML='Rosh Haayin';
+        </script>
+    <script>
+                function whereFrom(){
+                document.getElementById("demo").innerHTML="Rosh Haayin";
+                    }
+    </script>
+    <br>
+    <br>
+    <p id="demo">Where am I from?</p>
+    <button type="button" onclick="whereFrom()">
+        Click here to know!</button>
+</body>
+</html> 
